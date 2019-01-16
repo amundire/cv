@@ -3,6 +3,18 @@
 
 html {
     font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+    background: rgb(77, 77, 77)
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: white;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.fa, .fab, .fal, .far, .fas{
+    color: green;
 }
 
 .header-wrapper{
@@ -13,17 +25,22 @@ html {
 
 .header-wrapper > article {
     padding: 0 3rem;
-    width: 70%;
+    width: 60%;
 }
 
-.header-wrapper > article > h1 {
+.header-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-header-wrapper > h1 {
     font-size: 2rem;
     line-height: 3rem;
 }
 
-.header-wrapper > article > h2 {
+.header-header-wrapper > h2 {
     font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
     color: grey;
 }
 
@@ -38,6 +55,7 @@ html {
     list-style-type: none;
     padding: 1rem 0;
     flex-wrap: wrap;
+    font-size: 1.5rem;
 }
 
 .skills{
@@ -69,12 +87,11 @@ html {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-    max-width: 80%;
     margin: 0 auto;
 }
 
 .experience {
-    padding-left: 3rem;
+    padding-left: 2rem;
     width: 60%;
 }
 
@@ -98,7 +115,7 @@ html {
 }
 
 .right{
-    padding-right: 5rem;
+    padding-right: 4rem;
 }
 
 .right section, ul {
@@ -206,4 +223,69 @@ html {
 .certificates ul li a{
     text-decoration: none;
     color: rgb(20, 102, 65);
+}
+
+.contact-me{
+    text-align: center;
+}
+
+.contact-me h1{
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.contact-me ul{
+    list-style-type: none;
+}
+
+.contact-me ul li{
+    margin: 0.6rem 0;
+}
+
+@media screen and (max-width: 780px){
+    .header-wrapper{
+        padding: 1rem;
+    }
+    .header-wrapper article{
+        padding: 0 1rem;
+        width: auto;
+    }
+    .header-header-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-container{
+        margin: 0 auto;
+    }
+    .section-wrapper{
+        flex-direction: column;
+    }
+    .languages li{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .experience{
+        padding: 0;
+        width: 100%;
+    }
+    .right{
+        padding: 0;
+    }
+    .right h2, .right h1, .right p, .right a{
+        text-align: left !important;
+        margin: 1rem;
+    }
+    .certificates ul{
+        text-align: left !important;
+        padding-left: 2rem;
+    }
+    .projects ul{
+        text-align: left !important;
+        padding-left: 2rem;
+    }
+    .contact-me ul{
+        text-align: left !important;
+        padding-left: 2rem;
+    }
 }
