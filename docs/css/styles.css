@@ -1,0 +1,209 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import url('reset.css');
+
+html {
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+}
+
+.header-wrapper{
+    display: flex;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.header-wrapper > article {
+    padding: 0 3rem;
+    width: 70%;
+}
+
+.header-wrapper > article > h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.header-wrapper > article > h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: grey;
+}
+
+.header-wrapper > article > .description {
+    width: 90%;
+}
+
+.contacts-wrapper ul{
+    display: flex;
+    justify-content: space-evenly;
+    background: lightgray;
+    list-style-type: none;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.skills{
+    padding: 0 3rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.skills h1{
+    margin: 1rem;
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;  
+}
+
+.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    background: rgb(40, 174, 113);
+    border-radius: 12px;
+}
+
+.section-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.experience {
+    padding-left: 3rem;
+    width: 60%;
+}
+
+.experience h1{
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;
+    margin: 1rem;  
+}
+
+.experience h3{
+    color: gray;
+}
+
+.experience h2, h3{
+    margin: 0.5rem 1rem;    ;
+}
+
+.experience ul{
+    padding: 0 2rem;
+    margin: 1rem 0;
+}
+
+.right{
+    padding-right: 5rem;
+}
+
+.right section, ul {
+    margin-bottom: 4rem;
+}
+
+.education{
+    text-align: center;
+    
+}
+
+.education h1{
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.languages h1{
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;
+    margin: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.languages li{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-left{
+    flex: 1 1 40%;
+}
+
+.english-progressbar{
+    flex: 1 1 55%;
+    position: relative;
+}
+
+.progressbar-base{
+    background: #2693E6;
+    height: .9rem;
+    border-radius: 30px;
+    width: 99%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.progressbar-fill{
+    position: absolute;
+    background: rgb(40, 174, 113);;
+    height: .9rem;
+    border-radius: 30px;
+    width: 101%;
+    top: 50%;
+    left: -1%;
+
+    transform: translateY(-50%);
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects h1{
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.projects ul{
+    list-style-type: none;
+}
+
+.projects ul li{
+    margin: 1rem 0;
+}
+
+.projects ul li a{
+    text-decoration: none;
+    color: rgb(20, 102, 65);
+}
+
+.certificates{
+    text-align: center;
+}
+
+.certificates h1{
+    color: rgb(40, 174, 113);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.certificates ul{
+    list-style-type: none;
+}
+
+.certificates ul li{
+    margin: 1rem 0;
+}
+
+.certificates ul li a{
+    text-decoration: none;
+    color: rgb(20, 102, 65);
+}
