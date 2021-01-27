@@ -127,6 +127,10 @@ body {
     
 }
 
+.education a{
+    text-decoration: none;
+    color: rgb(20, 102, 65);
+}
 .education h1{
     color: rgb(40, 174, 113);
     text-transform: uppercase;
