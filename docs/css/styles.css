@@ -150,33 +150,8 @@ body {
     flex: 1 1 40%;
 }
 
-.english-progressbar{
-    flex: 1 1 55%;
-    position: relative;
-}
-
-.progressbar-base{
-    background: #2693E6;
-    height: .9rem;
-    border-radius: 30px;
-    width: 99%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
-}
-
-.progressbar-fill{
-    position: absolute;
-    background: rgb(40, 174, 113);;
-    height: .9rem;
-    border-radius: 30px;
-    width: 101%;
-    top: 50%;
-    left: -1%;
-
-    transform: translateY(-50%);
+.language-level-text{
+    color: rgb(40, 174, 113);
 }
 
 .projects{
